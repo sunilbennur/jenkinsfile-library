@@ -5,7 +5,7 @@ node() {
     echo "Starting"
     try {
         sleep 5
-        helloWorld("Darin")
+        helloWorld("suniln")
     } catch (Exception ex) {
         println ex.printStackTrace()
     }
