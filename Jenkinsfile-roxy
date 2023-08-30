@@ -11,7 +11,7 @@ pipeline {
         sh 'env | sort'
       }
     }
-    stage('start roxy') {
+    stage('start roxy1') {
       steps {
         sh "docker run --rm -d -p ${ROXY_LISTENER_PORT}:3333 --name ${ROXY_CONTAINER_ID} rollout/roxy:latest"
         sh 'sleep 10'
