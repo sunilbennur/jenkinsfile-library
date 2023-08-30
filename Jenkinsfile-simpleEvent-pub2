@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Example') {
+        stage('Example1') {
             steps {
                 echo 'sending helloWorld2'
                 publishEvent simpleEvent('helloWorld2')
